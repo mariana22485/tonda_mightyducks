@@ -1,0 +1,103 @@
+root {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-image: url(/hockey2.jpg);
+    background-repeat: no-repeat;
+}
+
+.contenedor1 {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    position: absolute;
+}
+
+.contenedorItem {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.item {
+    background-color: rgb(178, 203, 11);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(74, 73, 73);
+}
+
+.itemActual {
+    background-color: rgb(8, 12, 11);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(74, 73, 73);
+}
+
+main {
+    height: 300px;
+    width: 50%;
+    position: relative;
+    left: 3%;
+    top: 20%;
+}
+
+h2 {
+    border: 2px solid black;
+    color: black;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+}
+
+#logo {
+    height: 300px;
+}
+
+.contenedorSecciones {
+    background-color: rgb(178, 203, 11);
+    opacity: 0.7;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#seccion {
+    justify-content: left;
+    font-family: cursive;
+    color: black;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: left;
+}
+
+p {
+    text-indent: 20px;
+}

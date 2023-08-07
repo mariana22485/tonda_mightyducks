@@ -1,0 +1,131 @@
+root {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+
+    background-image: url(/design1_image1.jpg);
+    background-size: cover;
+    height: 65vh;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
+
+}
+
+
+
+#principal {
+    display: flex;
+    padding: 20px;
+    color: black;
+    text-align: left;
+    font-size: 3rem;
+    font-family: cursive;
+    font-weight: normal;
+
+
+}
+
+
+nav {
+    min-height: 5vh;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 12%;
+    text-align: right;
+
+}
+.link {
+    background-color: rgb(178, 203, 11);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(74, 73, 73);
+}
+
+.linkActual {
+    background-color: rgb(8, 12, 11);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 20px;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(74, 73, 73);
+}
+/* 
+.link {
+    color: white;
+    background-color: rgb(34, 92, 238);
+    padding: 10px;
+    text-decoration: none;
+    border: 15px;
+    font-size: 1rem;
+    border: 2px solid black;
+    box-shadow: 3px 3px rgb(155, 155, 155);
+}
+
+
+.link:active {
+    background-color: hsl(122, 63%, 44%);
+} */
+
+
+#logo {
+    height: 150px;
+    position: absolute;
+    top: 690px;
+    margin-left: 30px;
+
+}
+
+
+
+
+#Up {
+
+    color: black;
+    font-family: cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    border: 2px solid #000;
+
+}
+
+section {
+
+    margin: 0%;
+    margin-left: 15%;
+    line-height: 2;
+
+
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
